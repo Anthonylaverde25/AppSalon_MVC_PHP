@@ -1,0 +1,24 @@
+{
+  "name": "antho/app-salon_php_mvc_js_sass",
+  "description": "PROYECTO PHP 8, MCV, SQL, SASS, Gulp",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Antho\\AppSalonPhpMvcJsSass\\": "src/",
+      "MVC\\": "./",
+      "Controllers\\": "./controllers",
+      "Model\\": "./models",
+      "Classes\\": "./classes"
+    }
+  },
+  "authors": [
+    {
+      "name": "Anthony Laverde",
+      "email": "anthonylaverde1994@gmail.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^6.8",
+    "vlucas/phpdotenv": "^5.5"
+  }
+}
